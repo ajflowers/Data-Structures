@@ -66,4 +66,4 @@ class LRUCache:
         # add the key and value to the dictionary
         self.storage[key] = self.order.tail
         # increment size
-        self.size -= 1
+        self.size += 1
